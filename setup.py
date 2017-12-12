@@ -11,9 +11,9 @@ def read(fname):
 
 setup(
     name = "BabelPy",
-    version = "1.0",
-    author = "Marius Rehmet",
-    author_email = "mr@vojd.net",
+    version = "1.0.1",
+    author = "Fabian Grimme",
+    author_email = "fbngrm@googlemail.com",
     description = ("BabelFy API Client"),
     license = "GPL",
     keywords = "nlp computational_linguistics entities wikipedia dbpedia linguistics",
