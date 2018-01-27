@@ -7,11 +7,11 @@ import os
 from setuptools import setup
 
 def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+    return open(os.path.join(os.path.dirname(__file__), fname),'r',encoding='utf-8').read()
 
 setup(
     name = "BabelPy",
-    version = "1.0.1",
+    version = "1.0.2",
     author = "Fabian Grimme",
     author_email = "fbngrm@googlemail.com",
     description = ("BabelFy API Client"),
